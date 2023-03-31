@@ -11,7 +11,7 @@ const ClipboardWebsite = () => {
         <div className="parent-container mb-28 px-10 pt-10">
           <img
             className="mx-auto mt-12 mb-10"
-            src="/src/assets/images/clipboard-images/logo.svg"
+            src="/images/clipboard-images/logo.svg"
             alt=""
           />
 
@@ -66,7 +66,7 @@ const ClipboardWebsite = () => {
             {/* image */}
             <img
               className="mb-10 px-10 my-auto md:w-1/2 object-contain"
-              src="/src/assets/images/clipboard-images/image-computer.png"
+              src="/images/clipboard-images/image-computer.png"
               alt=""
             />
 
@@ -121,7 +121,7 @@ const ClipboardWebsite = () => {
 
           <img
             className="mx-auto object-contain w-full md:max-w-2xl"
-            src="/src/assets/images/clipboard-images/image-devices.png"
+            src="/images/clipboard-images/image-devices.png"
             alt=""
           />
         </div>
@@ -140,7 +140,7 @@ const ClipboardWebsite = () => {
             <div className="flex flex-col justify-center items-center space-y-4">
               <img
                 className=""
-                src="/src/assets/images/clipboard-images/icon-blacklist.svg"
+                src="/images/clipboard-images/icon-blacklist.svg"
                 alt=""
               />
 
@@ -155,7 +155,7 @@ const ClipboardWebsite = () => {
             <div className="flex flex-col justify-center items-center space-y-4">
               <img
                 className=""
-                src="/src/assets/images/clipboard-images/icon-text.svg"
+                src="/images/clipboard-images/icon-text.svg"
                 alt=""
               />
 
@@ -170,7 +170,7 @@ const ClipboardWebsite = () => {
             <div className="flex flex-col justify-center items-center space-y-4">
               <img
                 className=""
-                src="/src/assets/images/clipboard-images/icon-preview.svg"
+                src="/images/clipboard-images/icon-preview.svg"
                 alt=""
               />
 

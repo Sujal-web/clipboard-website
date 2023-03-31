@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="">
             <img
               className="h-16"
-              src="/src/assets/images/clipboard-images/logo.svg"
+              src="/images/clipboard-images/logo.svg"
               alt=""
             />
           </div>
@@ -51,19 +51,19 @@ const Footer = () => {
             <img
               className="cursor-pointer hover:-translate-y-0.5 transition 
               duration-150 hover:shadow-md hover:scale-105"
-              src="/src/assets/images/clipboard-images/icon-facebook.svg"
+              src="/images/clipboard-images/icon-facebook.svg"
               alt=""
             />
             <img
               className="cursor-pointer hover:-translate-y-0.5 transition 
               duration-150 hover:shadow-md hover:scale-105"
-              src="/src/assets/images/clipboard-images/icon-instagram.svg"
+              src="/images/clipboard-images/icon-instagram.svg"
               alt=""
             />
             <img
               className="cursor-pointer hover:-translate-y-0.5 transition 
               duration-150 hover:shadow-md hover:scale-105"
-              src="/src/assets/images/clipboard-images/icon-twitter.svg"
+              src="/images/clipboard-images/icon-twitter.svg"
               alt=""
             />
           </div>
