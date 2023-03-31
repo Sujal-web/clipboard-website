@@ -11,7 +11,7 @@ const ClipboardWebsite = () => {
         <div className="parent-container mb-28 px-10 pt-10">
           <img
             className="mx-auto mt-12 mb-10"
-            src="/clipboard-website/src/assets/images/clipboard-images/logo.svg"
+            src="/src/assets/images/clipboard-images/logo.svg"
             alt=""
           />
 
@@ -66,7 +66,7 @@ const ClipboardWebsite = () => {
             {/* image */}
             <img
               className="mb-10 px-10 my-auto md:w-1/2 object-contain"
-              src="src/assets/images/clipboard-images/image-computer.png"
+              src="/src/assets/images/clipboard-images/image-computer.png"
               alt=""
             />
 
