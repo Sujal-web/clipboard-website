@@ -66,7 +66,7 @@ const ClipboardWebsite = () => {
             {/* image */}
             <img
               className="mb-10 px-10 my-auto md:w-1/2 object-contain"
-              src="/src/assets/images/clipboard-images/image-computer.png"
+              src="src/assets/images/clipboard-images/image-computer.png"
               alt=""
             />
 
