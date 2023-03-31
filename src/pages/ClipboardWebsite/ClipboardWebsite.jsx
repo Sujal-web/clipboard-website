@@ -1,4 +1,6 @@
 import * as React from "react";
+import CompanyIcons from "../../Components/CompanyIcons/CompanyIcons";
+import Footer from "../../Components/Footer/Footer";
 
 const ClipboardWebsite = () => {
   return (
@@ -181,28 +183,7 @@ const ClipboardWebsite = () => {
         </div>
       </section>
 
-      {/* company icons section */}
-      <section id="company-icons">
-        <div
-          className="flex flex-col items-center justify-center mb-20 px-14 
-        space-y-16 text-gray-500 md:flex-row md:space-y-0 md:space-x-6 md:justify-around md:w-full"
-        >
-          <img
-            src="/src/assets/images/clipboard-images/logo-google.png"
-            alt=""
-          />
-          <img src="/src/assets/images/clipboard-images/logo-ibm.png" alt="" />
-          <img
-            src="/src/assets/images/clipboard-images/logo-microsoft.png"
-            alt=""
-          />
-          <img src="/src/assets/images/clipboard-images/logo-hp.png" alt="" />
-          <img
-            src="/src/assets/images/clipboard-images/logo-vector-graphics.png"
-            alt=""
-          />
-        </div>
-      </section>
+      <CompanyIcons />
 
       {/* clipboard endpage section */}
       <section id="clipboard-endpage">
@@ -236,72 +217,7 @@ const ClipboardWebsite = () => {
         </div>
       </section>
 
-      {/* references and footer section */}
-      <section id="footer">
-        <div
-          className="flex flex-col justify-center items-center py-6 space-y-6
-         md:flex-row md:space-y-0 md:space-x-4 md:justify-around bg-gray-200"
-        >
-          <div className="">
-            <img
-              className="h-16"
-              src="/src/assets/images/clipboard-images/logo.svg"
-              alt=""
-            />
-          </div>
-
-          {/* Item 1 */}
-          <div className="flex flex-col items-center justify-center md:h-16 text-center md:text-left space-y-6 text-gray-500 cursor-pointer">
-            <a className="hover:underline w-full" href="#">
-              FAQs
-            </a>
-            <a className="hover:underline w-full" href="#">
-              Contact Us
-            </a>
-          </div>
-
-          {/* Item 2 */}
-          <div className="flex flex-col items-center justify-center md:h-16 text-center md:text-left space-y-6 text-gray-500 cursor-pointer">
-            <a className="hover:underline w-full" href="#">
-              Privacy Policy
-            </a>
-            <a className="hover:underline w-full" href="#">
-              Press Kit
-            </a>
-          </div>
-
-          {/* Item 3 */}
-          <div
-            className="flex flex-col items-center justify-center md:h-16 text-center md:text-left space-y-6
-          md:justify-start text-gray-500 cursor-pointer"
-          >
-            <a className="hover:underline w-full" href="#">
-              Install Guide
-            </a>
-          </div>
-          {/* company icons */}
-          <div className="flex space-x-6 justify-center items-center md:h-16">
-            <img
-              className="cursor-pointer hover:-translate-y-0.5 transition 
-              duration-150 hover:shadow-md hover:scale-105"
-              src="/src/assets/images/clipboard-images/icon-facebook.svg"
-              alt=""
-            />
-            <img
-              className="cursor-pointer hover:-translate-y-0.5 transition 
-              duration-150 hover:shadow-md hover:scale-105"
-              src="/src/assets/images/clipboard-images/icon-instagram.svg"
-              alt=""
-            />
-            <img
-              className="cursor-pointer hover:-translate-y-0.5 transition 
-              duration-150 hover:shadow-md hover:scale-105"
-              src="/src/assets/images/clipboard-images/icon-twitter.svg"
-              alt=""
-            />
-          </div>
-        </div>
-      </section>
+      <Footer />
     </div>
   );
 };
