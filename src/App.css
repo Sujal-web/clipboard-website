@@ -10,7 +10,7 @@
 }
 
 body {
-  background-image: url("/src/assets/images/clipboard-images/bg-header-desktop.png");
+  background-image: url("/images/clipboard-images/bg-header-desktop.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -30,6 +30,6 @@ body {
 
 @media (max-width: 576px) {
   body {
-    background-image: url("/src/assets/images/clipboard-images/bg-header-mobile.png");
+    background-image: url("/images/clipboard-images/bg-header-mobile.png");
   }
 }
